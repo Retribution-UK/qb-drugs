@@ -101,14 +101,9 @@ Config.Products = {
 Config.SuccessChance = 50
 Config.ScamChance = 25
 Config.RobberyChance = 25
-Config.MinimumDrugSalePolice = 0
+Config.MinimumDrugSalePolice = 1
 
 Config.CornerSellingDrugsList = {
-    "weed_white-widow",
-    "weed_skunk",
-    "weed_purple-haze",
-    "weed_og-kush",
-    "weed_amnesia",
     "weed_ak47",
     "crack_baggy",
     "cokebaggy",
@@ -116,33 +111,9 @@ Config.CornerSellingDrugsList = {
 }
 
 Config.DrugsPrice = {
-    ["weed_white-widow"] = {
-        min = 15,
-        max = 24,
-    },
-    ["weed_og-kush"] = {
-        min = 15,
-        max = 28,
-    },
-    ["weed_skunk"] = {
-        min = 15,
-        max = 31,
-    },
-    ["weed_amnesia"] = {
-        min = 18,
-        max = 34,
-    },
-    ["weed_purple-haze"] = {
-        min = 18,
-        max = 37,
-    },
     ["weed_ak47"] = {
         min = 18,
         max = 40,
-    },
-    ["crack_baggy"] = {
-        min = 18,
-        max = 34,
     },
     ["cokebaggy"] = {
         min = 18,
